@@ -3,7 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Бронирование</title>
+    <link rel="stylesheet" href="../assets/Styles/index.css" />
+    <link rel="stylesheet" href="../assets/Styles/Book.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <img src="../assets/imges/logo_nav.png" alt="Лого" />
+        <ul class="nav-list">
+          <li><a href="./pages/Filial.html">Филиалы</a></li>
+          <li><a href="./pages/Book.html">Бронирование</a></li>
+          <li><a href="./pages/Account.html">Личный кабинет</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="main-container">
+        <h1>Бронирование</h1>
+        <div class="forms-container">
+          <form>
+            <label for="">Ваши данные</label>
+            <input type="text" placeholder="Фамилия" />
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Отчество" />
+            <select name="card-select" id="card-select">
+              <option selected hidden>Банковская карта</option>
+              <option value="Mir">Мир</option>
+              <option value="Visa">Visa</option>
+            </select>
+            <input type="text" placeholder="Паспортные данные" />
+            <input type="text" placeholder="Телефон" />
+            <input type="date" placeholder="Дата рождения" />
+          </form>
+          <form>
+            <label for="">Данные о авто</label>
+            <select name="" id="">
+              <option selected hidden>Id</option>
+            </select>
+            <select class="mark-input" name="mark" id="mark">
+              <option selected hidden>Марка</option>
+              <option value="Audi">Audi</option>
+              <option value="BMW">BMW</option>
+              <option value="Lada">Lada</option>
+              <option value="Cadilac">Cadilac</option>
+              <option value="Toyota">Toyota</option>
+            </select>
+            <input type="text" placeholder="Название" />
+            <input type="text" placeholder="Номер" />
+            <select name="" id="">
+              <option selected hidden>Дата бронирования</option>
+            </select>
+            <select name="" id="">
+              <option selected hidden>Дата возврата</option>
+            </select>
+            <input type="text" placeholder="Стоимость за день" />
+            <select name="" id="">
+              <option selected hidden>Филиал</option>
+            </select>
+          </form>
+        </div>
+        <div class="catalog">
+          <h2>Каталог</h2>
+          <ul class="catalog-list">
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
+          </ul>
+        </div>
+        <div class="order">
+          <h3>Данные о заказе</h3>
+          <div class="order-sections">
+            <ul class="order-list">
+              <li>Филиал:_____</li>
+              <li>Модель:_____</li>
+              <li>Марка:______</li>
+              <li>Класс:______</li>
+            </ul>
+            <div>
+              <p>Стоимость бронирования: 5 200 000 руб</p>
+              <button>Забронировать</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-contaier">
+        <img
+          class="footer-image"
+          src="../assets/imges/logo_footer.png"
+          alt=""
+        />
+        <h2>Навигация по сайту</h2>
+        <ul class="page-list">
+          <li><a href="">Бронирование</a></li>
+          <li><a href="">Личный кабинет</a></li>
+          <div>
+            <li><a href="">Регистрация</a></li>
+            <li><a href="">Вход</a></li>
+          </div>
+          <li><a href="">История бронирований</a></li>
+          <li><a href="">Филиалы</a></li>
+          <li><a href="">Банковские карты</a></li>
+          <li><a href="">Выбор автомобиля</a></li>
+        </ul>
+        <h3>Обратная свзь: 8 (800) 555-35-35</h3>
+        <h3>Все права защищены @ZetaAutoteh 2010-2025</h3>
+      </div>
+    </footer>
+  </body>
 </html>

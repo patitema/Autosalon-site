@@ -53,3 +53,56 @@ nav {
   text-decoration: none;
   font-weight: bold;
 }
+
+footer {
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.footer-contaier {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.footer-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 250px;
+}
+
+.footer-contaier h2 {
+  font-size: 36px;
+}
+
+.footer-contaier h3 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.page-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.page-list li a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-list div {
+  display: flex;
+  width: 300px;
+  gap: 10px;
+  flex-direction: row;
+}

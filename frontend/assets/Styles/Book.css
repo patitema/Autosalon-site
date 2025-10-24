@@ -1,0 +1,151 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.main-container {
+  width: 75vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #aaa;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(1.2);
+}
+
+.main-container h1 {
+  text-align: center;
+}
+
+.forms-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 100px;
+  align-items: start;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.forms-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.forms-container form input {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid #aaa;
+}
+
+.forms-container form select {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: 1px solid #aaa;
+}
+
+.forms-container form label {
+  font-weight: bold;
+}
+
+.catalog {
+  padding-top: 20px;
+}
+
+.catalog h2 {
+  text-align: center;
+}
+
+.catalog-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  margin-top: 20px;
+  width: 700px;
+  gap: 20px;
+  padding: 50px;
+  flex-wrap: wrap;
+  height: 500px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+
+.catalog-list li {
+  width: 150px;
+  height: 180px;
+  border-radius: 20px;
+  border: 1px solid #aaa;
+}
+
+.order {
+  margin-top: 60px;
+  width: 90%;
+  height: 200px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.order h3 {
+  font-size: 24px;
+}
+
+.order-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 200px;
+  align-items: center;
+}
+
+.order-sections div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.order-sections div p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.order-sections div button {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #aaffaa;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.order-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.order-list li {
+  font-size: 20px;
+  font-weight: bold;
+}

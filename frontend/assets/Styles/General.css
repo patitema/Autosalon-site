@@ -8,7 +8,7 @@ header {
   justify-content: center;
   background: url(../imges/BG.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   width: 100%;
   height: 550px;
 }
@@ -26,25 +26,29 @@ h1 {
 .list-brands {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  height: 100px;
+  min-height: 100px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
   align-items: center;
   justify-content: center;
-  gap: 55px;
+  gap: 3vw;
   border: 1px solid #aaa;
 }
 
 .list-brands li {
-  width: 85px;
-  height: 85px;
+  width: 5vw;
+  height: 5vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .list-brands svg {
-  width: 85px;
-  height: 85px;
+  width: 5vw;
+  height: 5vh;
   display: block;
 }
 
@@ -116,7 +120,11 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 500px;
+  width: 100%;
+  height: 530px;
+  background: url(../imges/Search_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .Search-form {
@@ -131,22 +139,100 @@ span {
   width: 200px;
   height: 30px;
   background-color: #fff;
-  border: none;
+  border: 1px solid #000;
   padding-left: 10px;
   border-radius: 5px;
+  box-shadow: 4px 4px 4px #aaa;
 }
 
-.Search-form input[type="checkbox"] {
-  border: none;
-  border-radius: 50%;
+.Search-form input[type="radio"] {
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+  box-shadow: 4px 4px 4px #aaa;
 }
 
 .Search-form input[type="submit"] {
   width: 150px;
+  height: 30px;
+  border: 1px solid #000;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #aaa;
 }
 
 .checkbox-container {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+.checkbox-container label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.News {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 1200px;
+  width: 100%;
+}
+
+.news-list {
+  margin-top: 40px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.news-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px #aaa;
+}
+
+.news-card img {
+  width: 400px;
+  height: 350px;
+  border-radius: 40px;
+}
+
+.news-card div {
+  width: 380px;
+}
+
+.news-card div h3 {
+  font-size: 20px;
+}
+
+.news-card div p {
+  font-size: 14px;
+}
+
+.news-card button {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 70px;
+  width: 120px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #cdcdcd;
+  font-weight: bold;
 }
