@@ -55,6 +55,98 @@ h1 {
 .about-us {
   display: flex;
   flex-direction: column;
+  height: 750px;
+  padding-top: 30px;
+}
 
-  height: 1000px;
+.about-us h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.about-us-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 40px;
+  gap: 50px;
+}
+
+.about-us-Even,
+.about-us-Odd {
+  display: flex;
+  align-items: center;
+  width: 330px;
+  height: 525px;
+  flex-direction: column;
+}
+
+.about-us-Odd {
+  margin-top: 100px;
+}
+
+.about-us-text {
+  text-align: center;
+  font-size: 30px;
+}
+
+.info-text {
+  margin-top: 15px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.about-us-list svg {
+  margin-top: 20px;
+  width: 100px;
+  height: 120px;
+}
+
+.time-svg {
+  margin-top: 55px !important;
+}
+
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.Search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.mark-input,
+.model-input {
+  width: 200px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.Search-form input[type="checkbox"] {
+  border: none;
+  border-radius: 50%;
+}
+
+.Search-form input[type="submit"] {
+  width: 150px;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }

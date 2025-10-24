@@ -117,8 +117,8 @@
           <ul class="about-us-list">
             <li class="about-us-Even">
               <div class="about-us-text">
-                <p>Надёжность</p>
-                <p>
+                <p><span>Надёжность</span></p>
+                <p class="info-text">
                   Более 20 лет успешной работы на рынке автомобилей. За это
                   время мы завоевали доверие тысяч клиентов благодаря честности,
                   прозрачности и профессионализму.
@@ -128,10 +128,75 @@
                 <use href="./assets/imges/Icons.svg#icon-Shield" />
               </svg>
             </li>
-            <li class="about-us-Odd"></li>
-            <li class="about-us-Even"></li>
-            <li class="about-us-Odd"></li>
+            <li class="about-us-Odd">
+              <svg viewBox="0 0 142 119">
+                <use href="./assets/imges/Icons.svg#icon-car" />
+              </svg>
+              <div class="about-us-text">
+                <p><span>Асортимент</span></p>
+                <p class="info-text">
+                  Каждый покупатель может подобрать авто, идеально
+                  соответствующее его пожеланиям: от компактных городских машин
+                  до премиальных внедорожников и коммерческого транспорта.
+                </p>
+              </div>
+            </li>
+            <li class="about-us-Even">
+              <div class="about-us-text">
+                <p class="title-text"><span>Скорость</span></p>
+                <p class="info-text">
+                  Оформление покупки занимает минимум времени: все документы
+                  готовим заранее, чтобы клиент мог получить ключи как можно
+                  быстрее.
+                </p>
+              </div>
+              <svg class="time-svg" viewBox="0 0 142 119">
+                <use href="./assets/imges/Icons.svg#icon-Time" />
+              </svg>
+            </li>
+            <li class="about-us-Odd">
+              <svg viewBox="0 0 142 119">
+                <use href="./assets/imges/Icons.svg#icon-Delivery" />
+              </svg>
+              <div class="about-us-text">
+                <p><span>Доставка</span></p>
+                <p class="info-text">
+                  Оперативно доставим выбранный автомобиль по любому адресу в
+                  короткие сроки — по городу и области.
+                </p>
+              </div>
+            </li>
           </ul>
+        </div>
+        <div class="Search">
+          <h2>Поиск</h2>
+          <form class="Search-form" action="" method="post">
+            <select class="mark-input" name="mark" id="mark">
+              <option selected hidden>Марка</option>
+              <option value="Audi">Audi</option>
+              <option value="BMW">BMW</option>
+              <option value="Lada">Lada</option>
+              <option value="Cadilac">Cadilac</option>
+              <option value="Toyota">Toyota</option>
+            </select>
+            <select class="model-input" name="model" id="model">
+              <option selected hidden>Модель</option>
+              <option value="R6">R6</option>
+              <option value="R7">R7</option>
+              <option value="R8">R8</option>
+            </select>
+            <div class="checkbox-container">
+              <label for="cheap">
+                <input type="radio" name="cheap" id="cheap" />
+                Эконом
+              </label>
+              <label for="expensive">
+                <input type="radio" name="expensive" id="expensive" />
+                Премиум
+              </label>
+            </div>
+            <input type="submit" />
+          </form>
         </div>
       </div>
     </main>
